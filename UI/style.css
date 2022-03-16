@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+.switch-field {
+	display: flex;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color:  white;
+	color: black;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid #fdffcd;
+	box-shadow: inset 0 1px 3px #ffcab0, 0 1px #fdffcd;
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #ffcab0;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+
+.form {
+	max-width: 270px;
+	font-weight: bold;
+	line-height: 1.625;
+	margin: 8px auto;
+	padding-left: 16px;
+	z-index: 2;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.area{
+      outline: 0;
+      background: white;
+      border: 1px solid #fdffcd;
+      box-shadow: inset 0 1px 3px #ffcab0, 0 1px #fdffcd;
+      width: 76%;
+      border: 0;
+      margin: 0 0 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 15px;
+      height: 35px;
+      border-radius: 5px;
+}
+
+.location{
+      outline: 0;
+      background: white;
+      width: 76%;
+      border: 0;
+      margin: 0 0 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 13px;
+      height: 40px;
+      border-radius: 5px;
+}
+
+.submit{
+      background-size: 300% 100%;
+      width: 76%;
+      border: 0;
+      margin: 25px 0 10px;
+      box-sizing: border-box;
+      font-size: 15px;
+      height: 35px;
+      text-align: center;
+      border:none;
+      border-radius:5px;
+      cursor:pointer;
+      border-radius: 50px;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+
+}
+
+.result{
+      background: #fdffcd;
+      width: 76%;
+      border: 0;
+      margin: 25px 0 10px;
+      box-sizing: border-box;
+      font-size: 15px;
+      height: 40px;
+      text-align: center;
+      border-radius: 5px;
+}
+
+
+
+
+.img {
+      background: linear-gradient(to right, #eecda3, #ef629f);
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-size:100% 100%;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+}
+
+body, html {
+  height: 100%;
+}
